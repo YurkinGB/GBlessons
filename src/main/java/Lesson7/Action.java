@@ -2,7 +2,11 @@ package Lesson7;
 
 import static java.lang.System.out;
 
-public class Action {
+public final class Action {
+
+    private Action(){
+
+    }
 
     public static Plate plate;
 
